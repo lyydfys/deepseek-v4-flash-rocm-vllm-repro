@@ -10,6 +10,15 @@ The answer from this run is yes, with an important boundary: the current setup
 is a fallback-heavy research baseline, not a production-grade high-throughput
 serving result.
 
+Live Space:
+https://lyydfys-deepseek-v4-flash-rocm-vllm-space.static.hf.space
+
+Public repository:
+https://github.com/lyydfys/deepseek-v4-flash-rocm-vllm-repro
+
+GitHub Pages:
+https://lyydfys.github.io/deepseek-v4-flash-rocm-vllm-repro/
+
 ## Why this model
 
 DeepSeek-V4-Flash is not a simple "download weights and start a server" model.

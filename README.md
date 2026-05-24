@@ -8,6 +8,9 @@ DeepSeek-V4-Flash on an AMD ROCm ModelScope DSW instance.
 Public repository:
 https://github.com/lyydfys/deepseek-v4-flash-rocm-vllm-repro
 
+Hugging Face Space:
+https://lyydfys-deepseek-v4-flash-rocm-vllm-space.static.hf.space
+
 GitHub Pages:
 https://lyydfys.github.io/deepseek-v4-flash-rocm-vllm-repro/
 

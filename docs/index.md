@@ -5,6 +5,8 @@
 Subtitle: 32K correctness, 8K `index_topk` sweep, and a fallback-heavy ROCm
 research baseline.
 
+Live Space: https://lyydfys-deepseek-v4-flash-rocm-vllm-space.static.hf.space
+
 ![Cover](assets/cover.png)
 
 This page is a public-facing summary of the reproducibility package. It is
