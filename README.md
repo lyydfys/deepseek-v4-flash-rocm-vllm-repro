@@ -3,6 +3,9 @@
 This repository is a reproducibility package for a user-side engineering study of
 DeepSeek-V4-Flash on an AMD ROCm ModelScope DSW instance.
 
+Public repository:
+https://github.com/lyydfys/deepseek-v4-flash-rocm-vllm-repro
+
 The goal is not to claim a new upstream ROCm backend implementation. The goal is
 to preserve a runnable, reviewable baseline that shows how the model was brought
 up through vLLM, ROCm/AITER/PyTorch fallback paths, long-context correctness
@@ -167,4 +170,3 @@ In this run, `index_topk=2048` was best for the 8K single-request TTFT probe, bu
   https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash
 - Lambda DeepSeek-V4-Flash benchmark reference:
   https://lambda.ai/inference-models/deepseek-ai/deepseek-v4-flash
-

@@ -115,9 +115,8 @@ I prepared a public repository with:
 - figures and evidence snippets;
 - no model weights.
 
-Repository URL: `<add GitHub URL after publishing>`
+Repository URL: https://github.com/lyydfys/deepseek-v4-flash-rocm-vllm-repro
 
 I would appreciate any guidance on whether the current `index_topk` behavior and
 fallback-heavy bottleneck interpretation match the expected ROCm DeepSeek-V4
 roadmap, especially around sparse MLA/top-k and AITER MHC paths.
-
