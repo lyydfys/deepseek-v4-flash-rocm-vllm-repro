@@ -1,0 +1,3 @@
+case_name,setting,result,evidence,lesson
+full_prefill_32768_batched_tokens,"max_num_batched_tokens=32768, max_model_len=32768",startup_failed,13.17 GiB KV cache needed; 1.39 GiB available; estimated max model length 3448,"Scheduler, KV cache and context length must be tuned together"
+topk2048_32k_begin_needle,"index_topk=2048, 32K begin-position needle",semantic_failed,Output missed the complete target token,The best 8K performance point is not automatically safe for 32K correctness

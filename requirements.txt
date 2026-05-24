@@ -1,0 +1,7 @@
+# Gallery default cells use only lightweight Python packages.
+# PyTorch/ROCm is expected from the ModelScope DSW AMD GPU image and is not installed here
+# to avoid accidentally replacing the ROCm build with a CPU wheel.
+pandas>=2.0
+numpy>=1.24
+matplotlib>=3.7
+requests>=2.31

@@ -1,0 +1,44 @@
+# Python / notebook runtime
+__pycache__/
+.ipynb_checkpoints/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.venv/
+venv/
+env/
+
+# Generated outputs
+outputs/
+logs/
+*.log
+*.jsonl
+*.trace
+*.sqlite
+
+# Model weights and caches. This repository intentionally does not publish them.
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.gguf
+*.onnx
+*.ckpt
+model-cache/
+models/
+weights/
+DeepSeek-V4-Flash/
+
+# Local packages / temporary archives
+*.zip
+*.tar
+*.tar.gz
+*.7z
+tmp/
+temp/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

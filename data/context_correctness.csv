@@ -1,0 +1,12 @@
+index_topk,context_tokens,needle_position,passed,latency_s,output_summary
+512,2048,begin,True,38.6,KITE_7913_ORBIT
+512,4096,begin,True,45.32,KITE_7913_ORBIT
+512,8192,begin,False,70.92,SECRET_CODE: KITE-1984
+512,8192,middle,True,175.5,KITE_7913_ORBIT
+512,8192,end,True,175.5,KITE_7913_ORBIT
+2048,8192,begin,True,139.51,KITE_7913_ORBIT
+2048,16384,begin,True,176.77,contains KITE_7913_ORBIT
+2048,32768,begin,False,303.88,missing ORBIT
+3072,32768,begin,False,519.05,KITE_7912
+3584,32768,begin,False,549.69,KITE_ORBIT_7913
+4096,32768,begin,True,572.91,contains KITE_7913_ORBIT

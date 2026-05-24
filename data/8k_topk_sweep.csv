@@ -1,0 +1,5 @@
+index_topk,context_tokens,needle_pass,gate_latency_s,ttft_s,effective_prefill_tok_s,note
+4096,8192,PASS,151.976,96.589,84.74,"32K correctness baseline, used here as 8K reference"
+1024,8192,PASS,138.563,95.217,85.962,8K sweep candidate
+1536,8192,PASS,154.255,94.25,86.844,8K sweep candidate
+2048,8192,PASS,156.403,80.313,101.914,Best 8K TTFT/prefill point in this round

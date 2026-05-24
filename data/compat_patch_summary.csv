@@ -1,0 +1,6 @@
+patch_area,purpose,risk
+mHC / tilelang import fallback,Avoid startup failure when ROCm cannot import selected kernel paths,May fall back to slower path
+MXFP4 Triton unfused route,Route unstable fused path to unfused Triton baseline on ROCm,Lower fusion benefit
+FP8 scale upcast,Fix scale dtype mismatch in FP8/W8A8 execution path,Requires correctness checks after patching
+Sparse top-k fallback,Use PyTorch fallback when ROCm/AITER top-k path is unstable,Prefill latency increases
+AITER MQA parameter fix,Adjust block/shared-memory parameters for the tested ROCm path,Version dependent
