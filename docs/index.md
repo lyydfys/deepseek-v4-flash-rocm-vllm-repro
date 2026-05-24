@@ -1,5 +1,7 @@
 # Reproducing DeepSeek-V4-Flash on AMD ROCm with vLLM
 
+[中文版本](zh.html)
+
 Subtitle: 32K correctness, 8K `index_topk` sweep, and a fallback-heavy ROCm
 research baseline.
 

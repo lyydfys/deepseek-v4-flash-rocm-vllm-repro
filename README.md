@@ -1,5 +1,7 @@
 # Reproducing DeepSeek-V4-Flash on AMD ROCm with vLLM
 
+[中文版本](README.zh-CN.md)
+
 This repository is a reproducibility package for a user-side engineering study of
 DeepSeek-V4-Flash on an AMD ROCm ModelScope DSW instance.
 
@@ -8,6 +10,9 @@ https://github.com/lyydfys/deepseek-v4-flash-rocm-vllm-repro
 
 GitHub Pages:
 https://lyydfys.github.io/deepseek-v4-flash-rocm-vllm-repro/
+
+GitHub Pages Chinese version:
+https://lyydfys.github.io/deepseek-v4-flash-rocm-vllm-repro/zh.html
 
 vLLM ROCm tracking issue reproduction comment:
 https://github.com/vllm-project/vllm/issues/41820#issuecomment-4529203579
