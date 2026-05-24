@@ -3,7 +3,7 @@
 Subtitle: 32K correctness, 8K `index_topk` sweep, and a fallback-heavy ROCm
 research baseline.
 
-![Cover](../assets/cover.png)
+![Cover](assets/cover.png)
 
 This page is a public-facing summary of the reproducibility package. It is
 written for GitHub Pages, so it keeps the narrative short and links back to the
@@ -36,15 +36,15 @@ Verified gates:
 
 ## Figures
 
-![Pipeline](../figures/01_rocm_fallback_pipeline.png)
+![Pipeline](figures/01_rocm_fallback_pipeline.png)
 
-![8K top-k sweep](../figures/02_8k_topk_perf.png)
+![8K top-k sweep](figures/02_8k_topk_perf.png)
 
-![Correctness matrix](../figures/03_context_correctness_matrix.png)
+![Correctness matrix](figures/03_context_correctness_matrix.png)
 
-![Service and correctness evidence](../figures/04_service_and_correctness_evidence.png)
+![Service and correctness evidence](figures/04_service_and_correctness_evidence.png)
 
-![Negative evidence](../figures/05_topk_and_negative_evidence.png)
+![Negative evidence](figures/05_topk_and_negative_evidence.png)
 
 ## Boundary
 
@@ -56,4 +56,3 @@ apples-to-apples Nvidia comparison.
 
 See the repository README and reports for the full commands, scripts, data, and
 evidence.
-
