@@ -4,7 +4,7 @@
 
 [English version](./)
 
-![封面](assets/cover.png)
+![封面](assets/cover_zh.png)
 
 ## 摘要
 
@@ -53,4 +53,3 @@ vLLM 部署的工程实践。项目并不宣称实现了新的上游 ROCm 后端
 完整 Notebook、脚本、CSV 数据、图表和报告见 GitHub 仓库：
 
 https://github.com/lyydfys/deepseek-v4-flash-rocm-vllm-repro
-

@@ -13,7 +13,7 @@ baseline。
 - 8K `index_topk` 性能扫参；
 - 负例记录、瓶颈分析和后续 ROCm kernel 优化方向。
 
-![封面](assets/cover.png)
+![封面](assets/cover_zh.png)
 
 ## 公开链接
 
