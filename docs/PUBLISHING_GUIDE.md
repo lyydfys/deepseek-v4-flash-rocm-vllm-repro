@@ -76,6 +76,12 @@ Suggested tags:
 ROCm, AMD GPU, vLLM, DeepSeek-V4-Flash, LLM inference
 ```
 
+Published Dataset mirror:
+
+```text
+https://huggingface.co/datasets/lyydfys/deepseek-v4-flash-rocm-vllm-repro
+```
+
 ## 4. GitHub Pages
 
 Use `docs/GITHUB_PAGES_ARTICLE.md` as a simple page source. It can be copied into

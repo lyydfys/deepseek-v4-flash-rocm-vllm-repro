@@ -26,6 +26,9 @@ baseline。
 - GitHub Pages 中文页：  
   https://lyydfys.github.io/deepseek-v4-flash-rocm-vllm-repro/zh.html
 
+- Hugging Face Dataset 镜像：  
+  https://huggingface.co/datasets/lyydfys/deepseek-v4-flash-rocm-vllm-repro
+
 - vLLM ROCm tracking issue 复现报告评论：  
   https://github.com/vllm-project/vllm/issues/41820#issuecomment-4529203579
 
@@ -162,4 +165,3 @@ top-k 参数当成所有上下文长度的最优配置。
   https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash
 - Lambda DeepSeek-V4-Flash benchmark reference:  
   https://lambda.ai/inference-models/deepseek-ai/deepseek-v4-flash
-

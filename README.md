@@ -14,6 +14,9 @@ https://lyydfys.github.io/deepseek-v4-flash-rocm-vllm-repro/
 GitHub Pages Chinese version:
 https://lyydfys.github.io/deepseek-v4-flash-rocm-vllm-repro/zh.html
 
+Hugging Face Dataset mirror:
+https://huggingface.co/datasets/lyydfys/deepseek-v4-flash-rocm-vllm-repro
+
 vLLM ROCm tracking issue reproduction comment:
 https://github.com/vllm-project/vllm/issues/41820#issuecomment-4529203579
 
