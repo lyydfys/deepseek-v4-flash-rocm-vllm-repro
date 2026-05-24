@@ -6,6 +6,12 @@ DeepSeek-V4-Flash on an AMD ROCm ModelScope DSW instance.
 Public repository:
 https://github.com/lyydfys/deepseek-v4-flash-rocm-vllm-repro
 
+GitHub Pages:
+https://lyydfys.github.io/deepseek-v4-flash-rocm-vllm-repro/
+
+vLLM ROCm tracking issue reproduction comment:
+https://github.com/vllm-project/vllm/issues/41820#issuecomment-4529203579
+
 The goal is not to claim a new upstream ROCm backend implementation. The goal is
 to preserve a runnable, reviewable baseline that shows how the model was brought
 up through vLLM, ROCm/AITER/PyTorch fallback paths, long-context correctness

@@ -54,6 +54,12 @@ tracking issue or discussion.
 
 The tone should stay as a reproduction report, not an upstream support claim.
 
+Published comment:
+
+```text
+https://github.com/vllm-project/vllm/issues/41820#issuecomment-4529203579
+```
+
 ## 3. Hugging Face article
 
 Use `docs/HF_ARTICLE.md` as the article body.
