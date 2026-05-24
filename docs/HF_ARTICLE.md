@@ -60,7 +60,7 @@ The run intentionally prioritized correctness and recovery. Several unstable
 ROCm-specific paths were guarded or routed through ROCm/AITER/Triton/PyTorch
 fallbacks before performance tuning.
 
-![ROCm fallback pipeline](../figures/01_rocm_fallback_pipeline.png)
+![ROCm fallback pipeline](../figures_en/01_rocm_fallback_pipeline.png)
 
 ## Correctness results
 
@@ -74,7 +74,7 @@ context and ask the model to return only that code.
 | 8K needle retrieval | PASS, 151.976s |
 | 32K needle retrieval | PASS at `index_topk=4096`, 497.470s restart run |
 
-![Service and correctness evidence](../figures/04_service_and_correctness_evidence.png)
+![Service and correctness evidence](../figures_en/04_service_and_correctness_evidence.png)
 
 The important lesson is that service startup is not enough. For long-context
 models, semantic retrieval tests are a better gate than "the server is running".
@@ -94,7 +94,7 @@ can reduce candidate work, but they may also drop long-distance information.
 For this run, `index_topk=4096` was the first verified 32K begin-position
 correctness point.
 
-![Context correctness matrix](../figures/03_context_correctness_matrix.png)
+![Context correctness matrix](../figures_en/03_context_correctness_matrix.png)
 
 ## 8K sweep
 
@@ -112,7 +112,7 @@ about 16.9% and effective prefill by about 20.3%. However, it should not be used
 as the 32K correctness setting because it failed the 32K begin-position needle
 case.
 
-![8K top-k sweep](../figures/02_8k_topk_perf.png)
+![8K top-k sweep](../figures_en/02_8k_topk_perf.png)
 
 ## Negative result
 
@@ -150,4 +150,3 @@ ROCm-native performance:
 The repository intentionally keeps model weights out of version control. The
 small artifacts that matter for reproducibility are scripts, patch notes, CSV
 tables, figures, and environment reports.
-

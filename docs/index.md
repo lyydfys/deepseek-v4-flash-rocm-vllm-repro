@@ -38,15 +38,15 @@ Verified gates:
 
 ## Figures
 
-![Pipeline](figures/01_rocm_fallback_pipeline.png)
+![Pipeline](figures_en/01_rocm_fallback_pipeline.png)
 
-![8K top-k sweep](figures/02_8k_topk_perf.png)
+![8K top-k sweep](figures_en/02_8k_topk_perf.png)
 
-![Correctness matrix](figures/03_context_correctness_matrix.png)
+![Correctness matrix](figures_en/03_context_correctness_matrix.png)
 
-![Service and correctness evidence](figures/04_service_and_correctness_evidence.png)
+![Service and correctness evidence](figures_en/04_service_and_correctness_evidence.png)
 
-![Negative evidence](figures/05_topk_and_negative_evidence.png)
+![Negative evidence](figures_en/05_topk_and_negative_evidence.png)
 
 ## Boundary
 
