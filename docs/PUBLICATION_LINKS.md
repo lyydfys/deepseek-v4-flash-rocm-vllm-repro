@@ -28,6 +28,18 @@ Local draft:
 docs/HF_ARTICLE.md
 ```
 
-Hugging Face CLI is installed but not logged in on this machine. After login,
-this draft can be published or copied into a Hugging Face article/repository
-README.
+Live Hugging Face Space:
+
+```text
+https://lyydfys-deepseek-v4-flash-rocm-vllm-space.static.hf.space
+```
+
+The Hugging Face CLI is logged in on this machine, so the Space is already
+published and live.
+
+## Platform-specific drafts
+
+- `docs/publish/INFOQ_CN.md`
+- `docs/publish/ALIYUN_CN.md`
+- `docs/publish/ZHIHU_CN.md`
+- `docs/publish/PUBLISHING_MATRIX.md`
